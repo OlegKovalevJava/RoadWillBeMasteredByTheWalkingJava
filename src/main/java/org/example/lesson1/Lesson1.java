@@ -1,9 +1,6 @@
-package org.example.lesson5;
+package org.example.lesson1;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+public class Lesson1 {
 
     byte aByte;       // -128 / 127
     short aShort;     // -32 768 / 32 767
