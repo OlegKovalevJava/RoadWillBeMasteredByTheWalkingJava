@@ -46,4 +46,5 @@ public class Task1 {
     static void log(String message) {
         System.out.println(message);
     }
+
 }
