@@ -8,7 +8,14 @@ public class Main {
         int b = a++;
         b += a++;
 
-        System.out.println(b);
-        System.out.println(a);
+       //System.out.println(b);
+       // System.out.println(a);
+
+        String name = "Tom";
+        int age = 30;
+        float height = 1.7f;
+
+        System.out.printf("Name: %s  Age: %d  Height: %.2f \n", name, age, height);
+
     }
 }
