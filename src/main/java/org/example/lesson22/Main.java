@@ -4,13 +4,17 @@ package org.example.lesson22;
 
 public class Main {
     public static void main(String[] args) {
-        Integer i = 5;
-        Integer j = 5;
-        if (i.equals(j)) {
-            System.out.println("СОВПАДАЮТ");
-        }
+        Integer i = 127;
+        Integer j = 127;
         if (i == j) {
-            System.out.println("СОВПАДАЮТ");
+            System.out.println("i и j совпадают");
         }
+
+        Integer a = 128;
+        Integer b = 128;
+        if (a == b) {
+            System.out.println("a и b совпадают");
+        }
+
     }
 }
