@@ -1,4 +1,4 @@
-package org.example.lesson22;
+package org.example.lesson22finished;
 
 // ОБЕРТКИ ДЛЯ ПРИМИТИВНЫХ ТИПОВ ДАННЫХ
 
@@ -9,12 +9,16 @@ public class Main {
         if (i == j) {
             System.out.println("i и j совпадают");
         }
-
         Integer a = 128;
         Integer b = 128;
         if (a == b) {
             System.out.println("a и b совпадают");
         }
+
+        Integer c = 128;
+
+        byte e = c.byteValue();
+        System.out.println(e);
 
     }
 }
