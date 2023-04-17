@@ -1,5 +1,7 @@
 package org.example.lesson1finished;
 
+// ПЕРЕМЕННЫЕ
+
 public class Lesson1 {
 
     byte aByte;       // -128 / 127
