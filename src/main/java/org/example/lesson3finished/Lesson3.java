@@ -1,4 +1,4 @@
-package org.example.lesson3;
+package org.example.lesson3finished;
 
 // ПРИВЕДЕНИЕ ТИПОВ ДАННЫХ
 
