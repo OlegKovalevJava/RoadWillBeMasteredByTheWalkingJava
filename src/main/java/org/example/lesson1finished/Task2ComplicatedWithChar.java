@@ -9,16 +9,16 @@ public class Task2ComplicatedWithChar {
     public static void main(String[] args) {
 
         char ch = 'Е';
-        System.out.print("" + ch + '\n');
+        System.out.print(ch + "\n");
 
         ch = 'г';
-        System.out.print("" + ch + '\n');
+        System.out.print(ch + "\n");
 
         ch = 'о';
-        System.out.print("" + ch + '\n');
+        System.out.print(ch + "\n");
 
         ch = 'р';
-        System.out.print("" + ch + '\n');
+        System.out.print("" + ch + "\n");
 
     }
 }

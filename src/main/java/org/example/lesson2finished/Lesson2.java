@@ -5,7 +5,6 @@ package org.example.lesson2finished;
 import java.util.Scanner;
 
 public class Lesson2 {
-
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
