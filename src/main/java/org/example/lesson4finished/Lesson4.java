@@ -1,6 +1,6 @@
 package org.example.lesson4finished;
 
-public class Main {
+public class Lesson4 {
     public static void main(String[] args) {
 
         final int numOne = 10;
