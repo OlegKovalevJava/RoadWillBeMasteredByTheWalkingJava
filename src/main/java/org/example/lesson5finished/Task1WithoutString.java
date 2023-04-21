@@ -1,4 +1,4 @@
-package org.example.lesson5;
+package org.example.lesson5finished;
 
 /**
  * Создать массив char, заполненный буквами своего имени в верном порядке.

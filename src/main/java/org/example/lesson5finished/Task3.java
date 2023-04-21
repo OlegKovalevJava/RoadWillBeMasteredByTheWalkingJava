@@ -1,4 +1,4 @@
-package org.example.lesson5;
+package org.example.lesson5finished;
 /**
  * Вычислить из записать в массив первые 10 простых чисел.
  * Простое число – положительное целое число,
