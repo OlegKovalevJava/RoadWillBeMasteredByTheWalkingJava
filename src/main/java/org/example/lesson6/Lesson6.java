@@ -11,8 +11,6 @@ public class Lesson6 {
 
     }
 
-
-
     static void method1(int a) {
 
         a = 2;
