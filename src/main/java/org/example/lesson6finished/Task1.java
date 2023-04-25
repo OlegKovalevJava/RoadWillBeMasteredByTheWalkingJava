@@ -1,4 +1,4 @@
-package org.example.lesson6;
+package org.example.lesson6finished;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Вынести в отдельный метод использование switch-case.
  * Также вынести в отдельный метод использование System.out.println
  */
-public class Task4 {
+public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -46,5 +46,6 @@ public class Task4 {
     static void log(String message) {
         System.out.println(message);
     }
+
 
 }
