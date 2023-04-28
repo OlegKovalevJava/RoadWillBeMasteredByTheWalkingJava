@@ -1,4 +1,4 @@
-package org.example.lesson22finished;
+package org.example.lesson22;
 
 // ОБЕРТКИ ДЛЯ ПРИМИТИВНЫХ ТИПОВ ДАННЫХ
 

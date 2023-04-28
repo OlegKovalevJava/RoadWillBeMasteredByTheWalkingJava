@@ -2,19 +2,15 @@ package org.example.finished.lesson7;
 
 public class Main {
     public static void main(String[] args) {
+        Car car = new Car("КРАСНЫЙ");
+        method1(car);
+        System.out.println(car.color);
 
-        Car orangeCar = new Car();
-        orangeCar.km = 100;
-        int a = Car.speed = 333;
-        int b = Car.speed = 888;
+    }
 
-        Car blueCar = new Car();
-        blueCar.km = 85;
+    static void method1(Car car) {
+        car.color = "Желтый";
+        System.out.println(car.color);
 
-
-        System.out.println("Orange car - " + orangeCar.km);
-        System.out.println("Orange speed - " + a);
-        System.out.println("Blue car - " + blueCar.km);
-        System.out.println("Blue speed - " + b);
     }
 }

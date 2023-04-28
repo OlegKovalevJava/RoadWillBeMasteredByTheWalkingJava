@@ -2,6 +2,14 @@ package org.example.finished.lesson7;
 
 public class Car {
 
-    int km;
-    static int speed;
+    String color;
+
+    public Car () {
+
+    }
+
+    public Car (String color) {
+        this.color = color;
+    }
+
 }
