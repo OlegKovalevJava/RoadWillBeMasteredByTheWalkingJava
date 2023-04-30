@@ -1,5 +1,7 @@
 package org.example.lesson12;
 
+// дополнительные материалы в отдельном проекте: CounterAggregation-master
+
 public class Main {
 
     public void public1 () { // Class, Package, Subclass, World
