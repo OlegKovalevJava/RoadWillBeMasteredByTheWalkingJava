@@ -1,4 +1,4 @@
-package org.example.lesson12;
+package org.example.finished.lesson12;
 
 public class SthClass {
     private String sthField;
