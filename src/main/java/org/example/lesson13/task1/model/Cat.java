@@ -1,4 +1,4 @@
-package org.example.lesson13.model;
+package org.example.lesson13.task1.model;
 
 public class Cat extends Animal {
     private Cat() {
@@ -7,5 +7,7 @@ public class Cat extends Animal {
 
     public Cat(String color) {
         this();
+
+        System.out.printf("I'm a %s cat\n", color);
     }
 }

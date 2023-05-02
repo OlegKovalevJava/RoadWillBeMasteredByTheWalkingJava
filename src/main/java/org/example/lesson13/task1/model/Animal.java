@@ -1,4 +1,4 @@
-package org.example.lesson13.model;
+package org.example.lesson13.task1.model;
 
 public class Animal {
     protected Animal() {
