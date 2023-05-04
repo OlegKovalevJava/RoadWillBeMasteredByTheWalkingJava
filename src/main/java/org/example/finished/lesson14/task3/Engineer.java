@@ -1,4 +1,4 @@
-package org.example.lesson14;
+package org.example.finished.lesson14.task3;
 
 public class Engineer extends Human{
     @Override
