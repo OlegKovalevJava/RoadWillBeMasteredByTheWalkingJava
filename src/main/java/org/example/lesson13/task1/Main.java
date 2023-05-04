@@ -1,4 +1,4 @@
-package org.example.lesson13;
+package org.example.lesson13.task1;
 
 import org.example.lesson13.task1.model.Cat;
 import org.example.lesson13.task1.model.Dog;
