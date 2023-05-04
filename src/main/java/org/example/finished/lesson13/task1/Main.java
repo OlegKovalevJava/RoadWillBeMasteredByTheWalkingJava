@@ -1,7 +1,7 @@
-package org.example.lesson13.task1;
+package org.example.finished.lesson13.task1;
 
-import org.example.lesson13.task1.model.Cat;
-import org.example.lesson13.task1.model.Dog;
+import org.example.finished.lesson13.task1.model.Cat;
+import org.example.finished.lesson13.task1.model.Dog;
 
 /**
  * Реализовать класс Animal, содержащий protected-конструктор без параметров,

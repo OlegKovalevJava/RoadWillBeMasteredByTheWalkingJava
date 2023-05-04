@@ -1,4 +1,4 @@
-package org.example.lesson13.task1.model;
+package org.example.finished.lesson13.task1.model;
 
 public class Dog extends Animal {
     private Dog() {

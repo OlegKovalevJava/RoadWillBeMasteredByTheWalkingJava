@@ -1,4 +1,9 @@
-package org.example.lesson13.task2;
+package org.example.finished.lesson13.task2;
+
+import org.example.finished.lesson13.task2.model.Animal;
+import org.example.finished.lesson13.task2.model.Cat;
+import org.example.finished.lesson13.task2.model.Dog;
+import org.example.finished.lesson13.task2.model.Cow;
 
 /**
  * Реализуйте класс Animal. Реализуйте его наследников: Dog, Cat, Cow.
