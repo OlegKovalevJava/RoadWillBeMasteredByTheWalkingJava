@@ -1,4 +1,4 @@
-package org.example.lesson16.example1;
+package org.example.finished.lesson16.example1;
 
 public class Client extends Person{
     private String bank;

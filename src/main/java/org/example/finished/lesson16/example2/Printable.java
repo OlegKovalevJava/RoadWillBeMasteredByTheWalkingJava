@@ -1,4 +1,4 @@
-package org.example.lesson16.example2;
+package org.example.finished.lesson16.example2;
 
 public interface Printable {
     void print();

@@ -1,4 +1,4 @@
-package org.example.lesson16.example2;
+package org.example.finished.lesson16.example2;
 
 public class Book implements Printable {
     String name;

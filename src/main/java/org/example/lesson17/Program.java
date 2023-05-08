@@ -1,7 +1,8 @@
 package org.example.lesson17;
 
-public class Main {
+public class Program{
     public static void main(String[] args) {
+
 
     }
 }
