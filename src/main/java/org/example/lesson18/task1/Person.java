@@ -1,8 +1,6 @@
-package org.example.lesson18;
+package org.example.lesson18.task1;
 
-// класс человека
 class Person {
-
     private String name;
 
     public String getName() {
