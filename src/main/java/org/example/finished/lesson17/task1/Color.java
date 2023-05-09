@@ -1,4 +1,4 @@
-package org.example.lesson17;
+package org.example.finished.lesson17.task1;
 
 enum Color {
     RED("#FF0000"),
@@ -7,7 +7,7 @@ enum Color {
 
     private String code;
 
-    Color(String code) {
+    private Color(String code) {
         this.code = code;
     }
 

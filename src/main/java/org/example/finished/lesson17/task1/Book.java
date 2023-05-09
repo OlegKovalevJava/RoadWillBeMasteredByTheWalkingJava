@@ -1,4 +1,4 @@
-package org.example.lesson17;
+package org.example.finished.lesson17.task1;
 
 class Book {
     String name;
