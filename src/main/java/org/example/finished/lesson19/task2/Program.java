@@ -1,4 +1,4 @@
-package org.example.finished.lesson19;
+package org.example.finished.lesson19.task2;
 
 public class Program {
     public static void main(String[] args) {

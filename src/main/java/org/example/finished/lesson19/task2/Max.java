@@ -1,4 +1,4 @@
-package org.example.finished.lesson19;
+package org.example.finished.lesson19.task2;
 
 import lombok.Getter;
 import lombok.Setter;
