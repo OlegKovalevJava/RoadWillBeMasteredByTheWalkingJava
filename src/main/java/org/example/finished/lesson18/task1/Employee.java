@@ -1,4 +1,4 @@
-package org.example.lesson18.task1;
+package org.example.finished.lesson18.task1;
 
 class Employee extends Person {
     private String company;

@@ -1,4 +1,4 @@
-package org.example.lesson18.task2.model;
+package org.example.finished.lesson18.task2.model;
 
 public class Cow extends Animal {
     public Cow() {

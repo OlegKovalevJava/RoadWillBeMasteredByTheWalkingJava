@@ -1,9 +1,9 @@
-package org.example.lesson18.task2;
+package org.example.finished.lesson18.task2;
 
-import org.example.lesson18.task2.model.Animal;
-import org.example.lesson18.task2.model.Cat;
-import org.example.lesson18.task2.model.Cow;
-import org.example.lesson18.task2.model.Dog;
+import org.example.finished.lesson18.task2.model.Cat;
+import org.example.finished.lesson18.task2.model.Cow;
+import org.example.finished.lesson18.task2.model.Dog;
+import org.example.finished.lesson18.task2.model.Animal;
 
 public class Main {
     public static void main(String[] args) {

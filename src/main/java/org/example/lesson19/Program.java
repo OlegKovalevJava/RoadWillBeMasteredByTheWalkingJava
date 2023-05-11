@@ -1,6 +1,6 @@
-package org.example.lesson20;
+package org.example.lesson19;
 
-public class Main {
+public class Program {
     public static void main(String[] args) {
 
     }

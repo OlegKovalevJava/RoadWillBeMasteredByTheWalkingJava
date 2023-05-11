@@ -1,4 +1,4 @@
-package org.example.lesson18.task1;
+package org.example.finished.lesson18.task1;
 
 class Client extends Person {
     private int sum;
