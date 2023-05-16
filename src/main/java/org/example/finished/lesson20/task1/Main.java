@@ -1,8 +1,8 @@
-package lesson20.task1;
+package org.example.finished.lesson20.task1;
 
-import lesson20.task1.model.File;
-import lesson20.task1.model.MediaType;
-import lesson20.task1.service.FileService;
+import org.example.finished.lesson20.task1.model.File;
+import org.example.finished.lesson20.task1.model.MediaType;
+import org.example.finished.lesson20.task1.service.FileService;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;

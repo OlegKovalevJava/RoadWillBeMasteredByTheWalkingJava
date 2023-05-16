@@ -1,6 +1,6 @@
-package lesson20.task1.service;
+package org.example.finished.lesson20.task1.service;
 
-import lesson20.task1.model.File;
+import org.example.finished.lesson20.task1.model.File;
 
 import java.io.FileNotFoundException;
 

@@ -1,4 +1,4 @@
-package lesson20.task1.model;
+package org.example.finished.lesson20.task1.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
