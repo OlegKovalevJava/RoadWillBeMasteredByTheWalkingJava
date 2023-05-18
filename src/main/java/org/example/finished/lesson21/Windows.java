@@ -1,4 +1,4 @@
-package lesson21;
+package org.example.finished.lesson21;
 
 public class Windows {
     public static void main(String[] args) {
