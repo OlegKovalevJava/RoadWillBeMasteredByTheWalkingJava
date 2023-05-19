@@ -14,20 +14,20 @@ public class EquilateralTriangle extends EquilateralShape {
 //    овладевание переопределением, а не псевдографикой
     @Override
     public String createShapeString() {
-        String triangle = EMPTY_STRING;
+        String triangle = EquilateralShape.EMPTY_STRING;
 
         for (int i = 0; i < length; i++) {
             for (int j = 0; j < length - i; j++) {
-                triangle += EMPTY_ELEMENT;
+                triangle += EquilateralShape.EMPTY_ELEMENT;
             }
 
             triangle += TRIANGLE_LEFT_SIDE_ELEMENT;
 
             for (int j = 0; j < i * 2; j++) {
-                triangle += EMPTY_ELEMENT;
+                triangle += EquilateralShape.EMPTY_ELEMENT;
             }
 
-            triangle += TRIANGLE_RIGHT_SIDE_ELEMENT + NEW_LINE_SYMBOL;
+            triangle += TRIANGLE_RIGHT_SIDE_ELEMENT + EquilateralShape.NEW_LINE_SYMBOL;
         }
 
         triangle += " ";

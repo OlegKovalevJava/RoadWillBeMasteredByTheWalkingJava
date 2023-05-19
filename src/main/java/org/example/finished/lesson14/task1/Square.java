@@ -17,13 +17,13 @@ public class Square extends EquilateralShape {
     }
 
     private String createHorizontalLine(int length) {
-        String horizontalLine = EMPTY_ELEMENT;
+        String horizontalLine = EquilateralShape.EMPTY_ELEMENT;
 
         for (int i = 0; i < length; i++) {
             horizontalLine += RECTANGLE_HORIZONTAL_ELEMENT;
         }
 
-        horizontalLine += EMPTY_ELEMENT + NEW_LINE_SYMBOL;
+        horizontalLine += EquilateralShape.EMPTY_ELEMENT + EquilateralShape.NEW_LINE_SYMBOL;
 
         return horizontalLine;
     }
@@ -31,7 +31,7 @@ public class Square extends EquilateralShape {
     private String createVerticalLines(int length) {
         String verticalLinesUnit = getVerticalLinesUnit(length);
 
-        String verticalLines = EMPTY_STRING;
+        String verticalLines = EquilateralShape.EMPTY_STRING;
 
         for (int i = 0; i < length; i++) {
             verticalLines += verticalLinesUnit;
@@ -44,10 +44,10 @@ public class Square extends EquilateralShape {
         String verticalLinesUnit = RECTANGLE_VERTICAL_ELEMENT;
 
         for (int i = 0; i < length; i++) {
-            verticalLinesUnit += EMPTY_ELEMENT;
+            verticalLinesUnit += EquilateralShape.EMPTY_ELEMENT;
         }
 
-        verticalLinesUnit += RECTANGLE_VERTICAL_ELEMENT + NEW_LINE_SYMBOL;
+        verticalLinesUnit += RECTANGLE_VERTICAL_ELEMENT + EquilateralShape.NEW_LINE_SYMBOL;
 
         return verticalLinesUnit;
     }
