@@ -1,7 +1,7 @@
-package org.example.finished.lesson19Object;
+package org.example.finished.lesson19;
 
-import org.example.finished.lesson19Object.model.Car;
-import org.example.finished.lesson19Object.service.CarService;
+import org.example.finished.lesson19.model.Car;
+import org.example.finished.lesson19.service.CarService;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package org.example.finished.lesson19Object.service;
+package org.example.finished.lesson19.service;
 
-import org.example.finished.lesson19Object.model.Car;
+import org.example.finished.lesson19.model.Car;
 
 public class CarService {
     private final Car[] cars;

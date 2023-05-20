@@ -1,4 +1,4 @@
-package org.example.finished.lesson19Object.model;
+package org.example.finished.lesson19.model;
 
 import lombok.Getter;
 import lombok.Setter;
