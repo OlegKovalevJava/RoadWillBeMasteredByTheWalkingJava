@@ -2,10 +2,14 @@ package lesson25;
 
 public class Program {
     public static void main(String[] args) {
-        Person tom = new Person("Tom", "qwerty");
-        tom.displayPerson();
-        tom.account.displayAccount();
-        tom.age = 34;
-        tom.account.age = 35;
+        Person person = new Person();
+        person.go(123);
+
+        Person person1 = new Person() {
+            void go(int number) {
+                System.out.println("при использовании метода с анонимным классом: " + number);
+            }
+        };
+        person1.go(444);
     }
 }
