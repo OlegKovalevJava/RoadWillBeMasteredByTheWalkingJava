@@ -1,4 +1,4 @@
-package lesson25;
+package org.example.finished.lesson25;
 
 class Math {
     public static class Factorial {
