@@ -13,5 +13,6 @@ public class Debugger {
         for (String words : words) {
             System.out.println(words);
         }
+
     }
 }
