@@ -1,6 +1,6 @@
 package lesson28;
 
-public class Generic1<T extends Number> {
+public class Generic1<T> {
     private T field;
 
     public T getField() {
