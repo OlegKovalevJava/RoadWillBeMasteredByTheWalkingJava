@@ -1,4 +1,4 @@
-package lesson28;
+package org.example.finished.lesson28;
 
 public class Generic1<T> {
     private T field;
