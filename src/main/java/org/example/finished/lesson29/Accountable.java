@@ -1,4 +1,4 @@
-package lesson29;
+package org.example.finished.lesson29;
 
 import java.math.BigDecimal;
 

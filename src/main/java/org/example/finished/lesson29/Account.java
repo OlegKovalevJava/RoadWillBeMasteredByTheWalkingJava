@@ -1,18 +1,18 @@
-package lesson29;
+package org.example.finished.lesson29;
 
 import java.math.BigDecimal;
 
-public class Account implements Accountable<String> {
-    private String id;
+public class Account <T>implements Accountable<T> {
+    private T id;
     private BigDecimal sum;
 
-    public Account(String id, BigDecimal sum) {
+    public Account(T id, BigDecimal sum) {
         this.id = id;
         this.sum = sum;
     }
 
     @Override
-    public String getId() {
+    public T getId() {
         return id;
     }
 
