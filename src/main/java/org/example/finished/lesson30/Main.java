@@ -1,4 +1,4 @@
-package lesson30;
+package org.example.finished.lesson30;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
