@@ -1,9 +1,15 @@
 package lesson31;
 
-import java.util.Scanner;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-    }
+        InputStream inputStream = new InputStream() {
+            @Override
+            public int read() throws IOException {
+                return 0;
+            }
+        }
+            }
 }
