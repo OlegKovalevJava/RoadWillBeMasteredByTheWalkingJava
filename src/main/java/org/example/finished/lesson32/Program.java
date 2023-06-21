@@ -1,4 +1,4 @@
-package lesson32;
+package org.example.finished.lesson32;
 
 import java.io.*;
 
