@@ -3,10 +3,10 @@ package lesson36;
 public class Main {
     public static void main(String[] args) {
 
-       printSt();
+        byte a = 120;
+        byte b = 127;
+        byte c = (byte) (a + b);
 
-    }
-
-    private static void printSt() {
+        System.out.println(c);
     }
 }
