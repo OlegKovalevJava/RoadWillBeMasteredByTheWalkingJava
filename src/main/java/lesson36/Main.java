@@ -2,11 +2,14 @@ package lesson36;
 
 public class Main {
     public static void main(String[] args) {
+        final int x;
 
-        byte a = 120;
-        byte b = 127;
-        byte c = (byte) (a + b);
+        if (Math.random() > 0.5) {
+            x = 1;
+        } else {
+            x = 2;
+        }
 
-        System.out.println(c);
+        System.out.println(x);
     }
 }
