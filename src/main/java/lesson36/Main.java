@@ -2,14 +2,13 @@ package lesson36;
 
 public class Main {
     public static void main(String[] args) {
-        final int x;
 
-        if (Math.random() > 0.5) {
-            x = 1;
-        } else {
-            x = 2;
-        }
+        char c = 'a';
+        char b = 'a' + 1;
 
-        System.out.println(x);
+        System.out.println(c);
+        System.out.println(b);
+
+
     }
 }
