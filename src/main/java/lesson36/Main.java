@@ -9,6 +9,7 @@ public class Main {
         List<String> stringList = new ArrayList<>();
         List<Integer> integerList = new ArrayList<>();
         List<Byte> byteList = new ArrayList<>();
+        List<Short> shortList = new ArrayList<>();
 
     }
 }
