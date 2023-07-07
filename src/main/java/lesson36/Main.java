@@ -7,9 +7,12 @@ public class Main {
     public static void main(String[] args) {
 
         List<String> stringList = new ArrayList<>();
-        List<Integer> integerList = new ArrayList<>();
+
         List<Byte> byteList = new ArrayList<>();
         List<Short> shortList = new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
+        List<Long> longList = new ArrayList<>();
+
 
     }
 }
