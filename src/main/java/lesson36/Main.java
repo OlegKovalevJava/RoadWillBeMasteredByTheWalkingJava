@@ -13,6 +13,10 @@ public class Main {
         List<Integer> integerList = new ArrayList<>();
         List<Long> longList = new ArrayList<>();
 
+        List<Double> doubleList = new ArrayList<>();
+        List<Float> floatList = new ArrayList<>();
+
+        List<Boolean> booleanList = new ArrayList<>();
 
     }
 }
