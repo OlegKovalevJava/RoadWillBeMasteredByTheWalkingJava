@@ -1,4 +1,4 @@
-package lesson37;
+package org.example.finished.lesson37;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
