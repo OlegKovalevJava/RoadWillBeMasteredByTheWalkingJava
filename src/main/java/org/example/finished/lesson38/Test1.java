@@ -1,4 +1,4 @@
-package lesson38;
+package org.example.finished.lesson38;
 
 import java.util.TreeSet;
 
@@ -9,9 +9,12 @@ public class Test1 {
         people.add(new Person("Tom"));
         people.add(new Person("Tom"));
         people.add(new Person("Mot"));
+        people.add(new Person("Cat"));
+        people.add(new Person("cat"));
 
+        for(Person  p : people) {
+            System.out.println(p.getName());
 
-
-
+        }
     }
 }

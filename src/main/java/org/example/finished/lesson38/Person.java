@@ -1,4 +1,4 @@
-package lesson38;
+package org.example.finished.lesson38;
 
 class Person implements Comparable<Person>{
 
