@@ -1,19 +1,14 @@
 package skillfactory.array;
 
-public class UserName {
+import lombok.Getter;
 
-    String nameUserOne;
-    String nameUserTwo;
+@Getter
+public class UserName {
+    private String nameUserOne;
+    private String nameUserTwo;
 
     public UserName(String nameUserOne, String nameUserTwo) {
         this.nameUserOne = nameUserOne;
         this.nameUserTwo = nameUserTwo;
     }
-
-    public void checkUserName() {
-        if (nameUserOne.equals(nameUserTwo)) {
-            System.out.println("Выберите другое имя!");
-        } else System.out.println("Отличное имя!");
-    }
-
 }
