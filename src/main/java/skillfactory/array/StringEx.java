@@ -3,13 +3,14 @@ package skillfactory.array;
 public class StringEx {
     public static void main(String[] args) {
 
-        UserName user1 = new UserName("MAX", "MAX");
-        check(user1);
-    }
+        String name = "Ivan";
+        Integer age = 77;
 
-    public static void check(UserName userName) {
-       if (userName.getNameUserOne().equals(userName.getNameUserTwo())) {
-           System.out.println("NORM");
-       }else System.out.println("NO");
+        String phrase = "My name is " + name + " I'm is " + age +" age old";
+        System.out.println(phrase);
+
+        String formatPhrase = String.format("My name is %s I'm is %d age old", name, age);
+        System.out.println(formatPhrase);
+
     }
 }
