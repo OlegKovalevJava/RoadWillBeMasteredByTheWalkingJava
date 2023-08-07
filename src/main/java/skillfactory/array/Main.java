@@ -5,8 +5,11 @@ public class Main {
 
         Cat tom = new Cat(10.2, "Tom", 3, "Res");
         tom.eat();
+        tom.eat();
+        tom.eat();
+        tom.eat();
+        tom.eat();
         System.out.println(tom.getWeight());
-        tom.setColor("Red");
 
     }
 }

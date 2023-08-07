@@ -48,12 +48,11 @@ public class Cat {
     }
 
     private void pee() {
-        weight -= 20;
+        weight -= 1;
     }
 
     public void eat() {
-        weight += 50;
-        if (50 / weight > .01)
-            pee();
+        weight += 5;
+        pee();
     }
 }
