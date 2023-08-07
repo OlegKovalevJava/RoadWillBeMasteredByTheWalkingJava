@@ -7,12 +7,6 @@ public class Cat {
     private int age;
     private String color;
 
-    //Конструктор по умолчанию
-    public Cat() {
-
-    }
-
-    //Конструктор, принимающий параметры
     public Cat(double weight, String name, int age, String color) {
         this.weight = weight;
         this.name = name;
@@ -37,7 +31,6 @@ public class Cat {
     }
 
     public void setAge(int age) {
-        //кошки не молодеют!
         if (age > this.age)
             this.age = age;
     }
@@ -45,14 +38,13 @@ public class Cat {
     public String getColor() {
         return color;
     }
-    //метод только для садистов
+
     public void setColor(String color) {
         this.color = color;
-        //и так жалобно
-        meow(); meow(); meow();
     }
+
     public void meow() {
-        System.out.println("Meow");
+        System.out.print("Meow");
     }
 
     private void pee() {
@@ -61,7 +53,6 @@ public class Cat {
 
     public void eat() {
         weight += 50;
-        //сами вызываем свою функцию, если надо
         if (50 / weight > .01)
             pee();
     }
