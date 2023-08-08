@@ -10,7 +10,7 @@ public class Test1 {
         people.add(new Person("Tom"));
         people.add(new Person("Mot"));
         people.add(new Person("Cat"));
-        people.add(new Person("cat"));
+        people.add(new Person("skillfactory/tank/cat"));
 
         for(Person  p : people) {
             System.out.println(p.getName());
