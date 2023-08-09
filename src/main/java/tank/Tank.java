@@ -12,8 +12,8 @@ public class Tank {
         else y -= i;
     }
 
-    public void printPosition() {
-        System.out.println("The Tank is at " + x + ", " + y + " now.");
+    public void goBackward(int i) {
+        goForward(-i);
     }
 
     public void turnLeft() {
@@ -26,7 +26,7 @@ public class Tank {
         if (dir == 4) dir = 0;
     }
 
-    public void goBackward(int i) {
-        goForward(-i);
+    public void printPosition() {
+        System.out.println("The Tank is at " + x + ", " + y + " now.");
     }
 }

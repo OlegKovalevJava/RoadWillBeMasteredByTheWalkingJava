@@ -5,6 +5,7 @@ public class Main {
 
         Tank tank = new Tank();
         tank.goForward(10);
+        tank.goForward(10);
         tank.printPosition();
         tank.turnRight();
         tank.goForward(50);
