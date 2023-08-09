@@ -1,22 +1,32 @@
 package tank;
 
 public class Tank {
-    private int position;
+    int x;
+    int y;
+    int dir;
 
-    public Tank(int position) {
-        this.position = position;
-    }
-
-    public void goForward(int distance) {
-        this.position = position + distance;
-    }
-
-    public void goBackward(int distance) {
-        this.position = position - distance;
+    public void goForward(int i) {
+        if (dir == 0) x += i;
+        else if (dir == 1) y += i;
+        else if (dir == 2) x -= i;
+        else y -= i;
     }
 
     public void printPosition() {
-        System.out.printf("The Tank is at %d now.", position);
-        System.out.println();
+        System.out.println("The Tank is at " + x + ", " + y + " now.");
+    }
+
+    public void turnLeft() {
+        dir--;
+        if (dir == -1) dir = 3;
+    }
+
+    public void turnRight() {
+        dir++;
+        if (dir == 4) dir = 0;
+    }
+
+    public void goBackward(int i) {
+        goForward(-i);
     }
 }
