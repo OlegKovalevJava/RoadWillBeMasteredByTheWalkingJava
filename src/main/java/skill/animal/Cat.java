@@ -1,8 +1,9 @@
 package skill.animal;
 
 class Cat extends Animal {
-    public Cat() {
-         super(false, "milk and meat");
+    @Override
+    public void sound(String a, String b) {
+        super.sound("1", "4");
     }
 
 }
