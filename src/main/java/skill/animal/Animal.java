@@ -5,4 +5,7 @@ public class Animal {
         System.out.println("hungry cry");
     }
 
+    public long go() {
+        return 453453455;
+    }
 }

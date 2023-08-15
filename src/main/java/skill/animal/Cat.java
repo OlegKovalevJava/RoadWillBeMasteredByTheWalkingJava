@@ -6,4 +6,5 @@ class Cat extends Animal {
         super.sound("1", "4");
     }
 
+
 }
