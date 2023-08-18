@@ -1,6 +1,6 @@
 package Zoo;
 
-public class PopcornStall {
+public class PopcornStall implements Soundable{
     public void print() {
         System.out.println(this);
     }
@@ -10,4 +10,8 @@ public class PopcornStall {
         return "It's PopcornStall";
     }
 
+    @Override
+    public void sound() {
+        System.out.println("Попкорн!");
+    }
 }

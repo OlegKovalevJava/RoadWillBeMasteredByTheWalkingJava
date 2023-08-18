@@ -1,6 +1,8 @@
 package Zoo;
 
 abstract class Animal {
-    abstract void print();
+    public void print() {
+        System.out.println(this);
+    }
 
 }
