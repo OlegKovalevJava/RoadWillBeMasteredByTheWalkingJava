@@ -1,4 +1,4 @@
-package Zoo;
+package skill.zoo;
 
 public class PopcornStall implements Soundable{
     public void print() {

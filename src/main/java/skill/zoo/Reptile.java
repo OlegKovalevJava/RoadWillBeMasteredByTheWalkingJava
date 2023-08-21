@@ -1,6 +1,10 @@
-package Zoo;
+package skill.zoo;
 
 public class Reptile extends Animal {
+    public Reptile(int years, String name) {
+        super(years, name);
+    }
+
     @Override
     public void print() {
         System.out.println(this);
