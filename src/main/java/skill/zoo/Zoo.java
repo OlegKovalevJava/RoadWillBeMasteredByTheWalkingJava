@@ -6,7 +6,7 @@ public class Zoo {
     public Zoo() {
         objects = new Object[3];
         objects[0] = new Dog(5, "Cat");
-        objects[1] = new Cat(4, "Mouse");
+        objects[1] = new Cat();
         objects[2] = new Reptile(10, "Tortuga");
     }
 

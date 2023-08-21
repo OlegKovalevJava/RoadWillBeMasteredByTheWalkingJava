@@ -1,9 +1,6 @@
 package skill.zoo;
 
 public class Cat extends Animal implements Soundable {
-    public Cat(int years, String name) {
-        super(years, name);
-    }
 
     @Override
     public void print() {
