@@ -2,10 +2,10 @@ package inner;
 
 public class Main {
     public static void main(String[] args) {
-        MotherBoard mb = new MotherBoard();
 
-        System.out.println("Total Ports = " + mb.usb.getTotalPorts());
+        TVset tVset = new TVset();
+        tVset.isOn = true;
+        System.out.println(tVset.toString());
 
-        MotherBoard.USB usb = new MotherBoard.USB(4,4);
     }
 }
