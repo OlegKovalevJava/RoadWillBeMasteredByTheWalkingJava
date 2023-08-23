@@ -1,2 +1,0 @@
-RR-111-RR;2015;yellow;true
-RR-222-RR;2016;null;true
