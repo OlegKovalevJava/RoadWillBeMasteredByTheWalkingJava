@@ -1,7 +1,16 @@
 package skill.readAndWrite;
 
-import java.io.InputStreamReader;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class Main {
-    InputStreamReader inputStreamReader = new InputStreamReader();
+    public static void main(String[] args) {
+        InputStream inputStream = new InputStream() {
+            @Override
+            public int read() throws IOException {
+                return 0;
+            }
+        };
+    }
+
 }
