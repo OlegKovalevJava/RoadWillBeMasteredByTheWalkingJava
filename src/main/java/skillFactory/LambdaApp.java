@@ -1,13 +1,16 @@
 package skillFactory;
 
-public class LambdaApp {
+import skillFactory2.Printable;
 
+public class LambdaApp {
     public static void main(String[] args) {
 
-        Operationable operation;
-        operation = (x, y) -> x + y;
+        Printable printer = r -> System.out.println(r);
+        Printable printer2 = s -> System.out.println(s);
+        printer.print("Hello Java");
+        printer.print("Hello Java");
+        printer2.print("No");
+        printer2.print("No");
 
-        int result = operation.calculate(10, 20);
-        System.out.println(result); //30
     }
 }
