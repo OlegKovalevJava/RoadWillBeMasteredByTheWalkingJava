@@ -1,15 +1,22 @@
 package skillFactory;
 
-import java.io.IOException;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        int[] array = {0, 1, 2, 3, 4};
-        int s = 0;
-        for (int i = 0; i < array.length; i++) {
-            s += array[i];
+    public static void main(String[] args) {
+        List<Car> cars = new LinkedList<>();
+        Car car1 = new Car(4, "max");
+        Car car2 = new Car(6, "MIX");
+        cars.add(car1);
+        cars.add(car1);
+        cars.add(car1);
+        cars.add(car2);
+        cars.add(car2);
+        cars.add(car2);
+        for (Car c: cars) {
+            System.out.println(c.toString());
         }
-        System.out.println(s);
     }
 
 }
