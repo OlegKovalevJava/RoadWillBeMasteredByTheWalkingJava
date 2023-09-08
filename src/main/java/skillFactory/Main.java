@@ -4,17 +4,18 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        if (copyFileUsingStream("src/utf8.txt", "UTF-8", "src/win1251.txt", "windows-1251")) {
+        if (copyFileUsingStream("src/utf8.txt", "UTF-8",
+                "src/win1251.txt", "windows-1251")) {
             System.out.println("Перекодировка прошла успешно!");
         }
 
     }
 
-    private static boolean copyFileUsingStream(String sourceFilename, String sourceEnc,
-                                               String destFilename, String descEnc) {
+    private static boolean copyFileUsingStream(String sourceFileName, String sourceEnc,
+                                               String destFileName, String descEnc) {
 
-        try (Reader fis = new InputStreamReader(new FileInputStream(new File(sourceFilename)), sourceEnc);
-             Writer fos = new OutputStreamWriter(new FileOutputStream(new File(destFilename)), descEnc)) {
+        try (Reader fis = new InputStreamReader(new FileInputStream((sourceFileName)), sourceEnc);
+             Writer fos = new OutputStreamWriter(new FileOutputStream((destFileName)), descEnc)) {
 
             char[] buffer = new char[1024];
             int length;
