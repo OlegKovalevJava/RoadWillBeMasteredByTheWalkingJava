@@ -1,18 +1,20 @@
 package skillFactory.collection;
 
-import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
 
-        char[] chars = new char[3];
+        List<String> stringList = new LinkedList<>();
+        stringList.add("name");
+        stringList.add("surname");
+        stringList.add("city");
+        stringList.add("name");
 
-        chars[0] = 'a';
-        chars[1] = 'A';
-        chars[2] = 's';
-
-        Arrays.sort(chars);
-        System.out.println(chars);
-
+        for (String s : stringList) {
+            System.out.println(s);
+        }
     }
+
 }
