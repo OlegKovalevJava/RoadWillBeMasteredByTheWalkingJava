@@ -1,4 +1,4 @@
-package skillFactory;
+package skillFactory.exception;
 
 public class ConvertException extends Exception {
     public ConvertException(String message) {

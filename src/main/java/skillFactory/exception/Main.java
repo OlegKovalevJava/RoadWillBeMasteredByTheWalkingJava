@@ -1,4 +1,4 @@
-package skillFactory;
+package skillFactory.exception;
 
 import java.io.*;
 
