@@ -1,20 +1,28 @@
 package skillFactory.collection;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
 
-        List<String> stringList = new LinkedList<>();
-        stringList.add("name");
-        stringList.add("surname");
-        stringList.add("city");
-        stringList.add("name");
+        Iterable iterable = new Iterable() {
+            @Override
+            public Iterator iterator() {
+                return null;
+            }
+        };
 
-        for (String s : stringList) {
-            System.out.println(s);
-        }
+        Iterator iterator = new Iterator() {
+            @Override
+            public boolean hasNext() {
+                return false;
+            }
+
+            @Override
+            public Object next() {
+                return null;
+            }
+        };
     }
 
 }
