@@ -1,4 +1,4 @@
-package skillFactory.exception;
+package skillFactory.arc;
 
 public class ConvertException extends Exception {
     public ConvertException(String message) {
