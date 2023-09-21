@@ -1,4 +1,4 @@
-package skill;
+package skill.mapEx;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         Car car1 = new Car(TOYOTA, "camry", false);
-        Car car2 = new Car(TOYOTA, "camry", false);
+        Car car2 = new Car(TOYOTA, "camry", true);
         Car car3 = new Car(KIA, "rio", false);
         Car car4 = new Car(KIA, "rio", false);
         Car car5 = new Car(BMW, "x8", false);

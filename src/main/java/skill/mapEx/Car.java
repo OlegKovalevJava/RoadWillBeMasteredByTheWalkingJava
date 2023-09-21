@@ -1,4 +1,4 @@
-package skill;
+package skill.mapEx;
 
 import java.util.Objects;
 
@@ -55,4 +55,5 @@ public class Car {
                 ", onSale=" + onSale +
                 '}';
     }
+
 }
