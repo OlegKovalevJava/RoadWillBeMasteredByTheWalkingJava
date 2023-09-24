@@ -10,6 +10,8 @@ public class Main {
 
         var b = new BigDecimal("10.000");
 
+        var с = new BigDecimal(1000);
+
         System.out.println(a.compareTo(b)==0);
     }
 
