@@ -3,7 +3,7 @@ package skill.map2;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-public class Product {
+public class Product implements Comparable<Product>{
 
     private final String brand;
     private final String name;
@@ -37,7 +37,7 @@ public class Product {
     }
 
     @Override
-    public boolean equals(Object o) { // определяем равенство по полям brand, serialNumber и name
+    public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
@@ -59,5 +59,10 @@ public class Product {
                 ", serialNumber=" + serialNumber +
                 ", creationDate=" + creationDate +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Product o) {
+        return brand.compareTo(o.brand);
     }
 }
