@@ -1,9 +1,12 @@
 package skill.map2;
 
+import lombok.Getter;
+
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-public class Product implements Comparable<Product>{
+@Getter
+public class Product implements Comparable<Product> {
 
     private final String brand;
     private final String name;
@@ -20,30 +23,12 @@ public class Product implements Comparable<Product>{
         this.creationDate = creationDate;
     }
 
-    public String getBrand() {
-        return brand;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public long getSerialNumber() {
-        return serialNumber;
-    }
-
-    public LocalDateTime getCreationDate() {
-        return creationDate;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return serialNumber == product.serialNumber &&
-                brand.equals(product.brand) &&
-                name.equals(product.name);
+        return serialNumber == product.serialNumber && brand.equals(product.brand) && name.equals(product.name);
     }
 
     @Override
@@ -53,12 +38,8 @@ public class Product implements Comparable<Product>{
 
     @Override
     public String toString() {
-        return "Product{" +
-                "brand='" + brand + '\'' +
-                ", name='" + name + '\'' +
-                ", serialNumber=" + serialNumber +
-                ", creationDate=" + creationDate +
-                '}';
+        return "Product{" + "brand='" + brand + '\'' + ", name='" + name + '\'' + ", serialNumber=" + serialNumber
+                + ", creationDate=" + creationDate + '}';
     }
 
     @Override

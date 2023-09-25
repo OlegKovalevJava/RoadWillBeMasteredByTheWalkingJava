@@ -10,6 +10,7 @@ public class Program {
         set.add(new Product("СуперБренд", "Колбаса", 3435425245L, LocalDateTime.now()));
         set.add(new Product("ЛучшийБренд", "Сыр", 434323434L, LocalDateTime.now()));
         set.add(new Product("ХорошийБренд", "Сыр", 4343111111L, LocalDateTime.now()));
+
         for (Product product : set) {
             System.out.println(product.toString());
         }
