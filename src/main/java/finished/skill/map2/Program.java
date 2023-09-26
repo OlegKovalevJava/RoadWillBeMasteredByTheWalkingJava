@@ -1,4 +1,4 @@
-package skill.map2;
+package finished.skill.map2;
 
 import java.time.LocalDateTime;
 import java.util.Set;

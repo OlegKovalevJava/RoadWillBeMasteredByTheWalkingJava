@@ -1,4 +1,4 @@
-package skill.bigDec;
+package finished.skill.bigDec;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

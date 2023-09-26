@@ -1,4 +1,4 @@
-package skill.mapEx;
+package finished.skill.mapEx;
 
 import java.util.ArrayList;
 import java.util.HashMap;
