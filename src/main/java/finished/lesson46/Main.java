@@ -3,7 +3,7 @@ package finished.lesson46; /*ЛЯМБДЫ*/
 public class Main {
     public static void main(String[] args) {
         int value = 70;
-        validate(value, new ValidatorImpl());
+        validate(value, (int value1) -> true);
 
     }
 
