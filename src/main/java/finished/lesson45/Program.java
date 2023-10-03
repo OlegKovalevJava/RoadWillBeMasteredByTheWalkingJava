@@ -9,6 +9,14 @@ public class Program {
         sw.addElectricityListeners(lamp);
         sw.addElectricityListeners(radio);
 
+        sw.addElectricityListeners(new ElectricityConsumer() {
+            public void electricityOn() {
+                System.out.println("Пожар");
+            }
+        });
+
+        sw.addElectricityListeners(() -> System.out.print("Fire"));
+
         sw.switchOn();
 
     }
