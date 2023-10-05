@@ -1,4 +1,6 @@
-package test;
+package finished.lesson46;
+
+import finished.lesson46.Person;
 
 import java.util.ArrayList;
 import java.util.Comparator;

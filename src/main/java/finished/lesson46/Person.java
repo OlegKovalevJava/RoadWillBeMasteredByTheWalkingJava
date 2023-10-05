@@ -1,4 +1,4 @@
-package test;
+package finished.lesson46;
 
 import lombok.Getter;
 
