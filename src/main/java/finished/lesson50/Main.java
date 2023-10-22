@@ -1,14 +1,18 @@
 package finished.lesson50;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Person> personList = Data.getPersons();
-        List<Person> personList2 = personList.stream().distinct();
+        List<Person> persons = Data.getPersons();
 
-        for (int i = 0; i < personList.size(); i++) {
-            System.out.println(personList.get(i));
+        List<Person> persons2 = persons.stream()
+                .filter(person -> person.getAge() > 30)
+                .toList();
+
+        for (int i = 0; i < persons2.size(); i++) {
+            System.out.println(persons2.get(i));
         }
     }
 }

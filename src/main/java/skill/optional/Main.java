@@ -1,4 +1,4 @@
-package finished.skill.optional;
+package skill.optional;
 
 import java.util.Optional;
 

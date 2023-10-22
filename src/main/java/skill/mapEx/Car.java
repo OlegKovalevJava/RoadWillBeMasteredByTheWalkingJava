@@ -1,4 +1,4 @@
-package finished.skill.mapEx;
+package skill.mapEx;
 
 import java.util.Objects;
 
