@@ -8,11 +8,9 @@ public class Main {
 
         List<Person> persons2 = persons.stream()
                 .sorted()
-                .filter(person -> person.getAge() > 30)
+                .filter(person -> person.getAge() > 40)
                 .toList();
 
-        for (int i = 0; i < persons2.size(); i++) {
-            System.out.println(persons2.get(i));
-        }
+        persons2.forEach(System.out::println);
     }
 }
