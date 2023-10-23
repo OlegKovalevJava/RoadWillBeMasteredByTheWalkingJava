@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Person {
+public class Person implements Comparable<Person> {
     private String firstName;
     private String lastName;
     private int age;
@@ -19,5 +19,10 @@ public class Person {
     @Override
     public String toString() {
         return "'firstName:' " + firstName + " 'lastName:' " + lastName + " 'age:' " + age;
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return firstName.compareTo(o.getFirstName());
     }
 }

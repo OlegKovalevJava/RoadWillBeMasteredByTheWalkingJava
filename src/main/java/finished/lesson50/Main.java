@@ -7,7 +7,8 @@ public class Main {
         List<Person> persons = Data.getPersons();
 
         List<Person> persons2 = persons.stream()
-                .filter(person -> person.getAge() > 40)
+                .sorted()
+                .filter(person -> person.getAge() > 30)
                 .toList();
 
         for (int i = 0; i < persons2.size(); i++) {
