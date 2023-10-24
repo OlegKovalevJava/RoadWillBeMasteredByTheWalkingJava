@@ -1,10 +1,5 @@
 package thePhilosophyOfJava;
+abstract class Animal {
+    abstract void sound();
 
-public class Animal {
-    void sound(String sound) {
-        System.out.println(sound);
-    }
-    void sound(String one, String two) {
-
-    }
 }
