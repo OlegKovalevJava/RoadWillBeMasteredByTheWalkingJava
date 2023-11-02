@@ -6,4 +6,9 @@ public class Cat extends Animal{
     void sound() {
 
     }
+
+    final void go() {
+        System.out.println("GO");
+    }
+
 }
