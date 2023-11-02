@@ -7,8 +7,4 @@ public class Cat extends Animal{
 
     }
 
-    final void go() {
-        System.out.println("GO");
-    }
-
 }
