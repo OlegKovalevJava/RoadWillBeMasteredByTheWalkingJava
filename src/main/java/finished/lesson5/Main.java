@@ -1,6 +1,6 @@
 package finished.lesson5;
 
-public class Lesson5 {
+public class Main {
     public static void main(String[] args) {
 
         int[] number = {1, 2, 3, 4, 5};
