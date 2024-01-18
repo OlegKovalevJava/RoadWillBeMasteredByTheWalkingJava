@@ -1,21 +1,9 @@
 package finished.lesson52;
 
-import java.util.Comparator;
-import java.util.stream.StreamSupport;
-
-public class Main implements Comparator {
+public class Main {
     public static void main(String[] args) {
-
-        StreamSupport streamSupport;
-        // StreamSupport.stream();
-        // StreamSupport.intStream();
-        // StreamSupport.longStream();
-        // StreamSupport.doubleStream();
-
-    }
-
-    @Override
-    public int compare(Object o1, Object o2) {
-        return 1;
+        Runnable r = (args.length > 0 ?
+                () -> System.out.println("Hello " + args[0] + "!") :
+                () -> System.out.println("Hello World"));
     }
 }
