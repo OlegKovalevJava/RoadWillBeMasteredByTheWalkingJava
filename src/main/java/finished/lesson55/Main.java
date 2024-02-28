@@ -1,15 +1,25 @@
 package finished.lesson55;
 
+import java.util.Arrays;
 import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
-        boolean isContainsEven = Stream.of(1, 2, 3, 4, 6)
-                .anyMatch(i -> i % 2 == 0); // true для 2, больше проверок не будет
 
-        boolean isContains1 = Stream.of(2, 2, 2, 2)
-                .anyMatch(i -> i == 1); // false, ни один из элементов не равен 1
+        Integer[] arr0 = Stream.of(1, 2, 10)
+                .toArray(Integer[]::new);
 
-        System.out.println(isContainsEven + " " + isContains1);
+        Integer[] arr1 = Stream.of(1, 2, 10)
+                .toArray(length -> new Integer[length]);
+
+        String[] arr2 = Stream.of("11", "22", "101")
+                .toArray(String[]::new);
+
+        System.out.println(Arrays.toString(arr0));
+
+        System.out.println(Arrays.toString(arr1));
+
+        System.out.println(Arrays.toString(arr2));
+
     }
 }
