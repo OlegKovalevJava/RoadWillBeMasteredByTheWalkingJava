@@ -1,7 +1,6 @@
 package finished.lesson55;
 
-public class NoPerson implements Runnable {
-    @Override
+public class NoPerson {
     public void go() {
 
     }
