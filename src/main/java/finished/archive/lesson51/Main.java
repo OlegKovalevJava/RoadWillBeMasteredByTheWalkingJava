@@ -1,30 +1,37 @@
 package finished.archive.lesson51;
 
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.Spliterator;
+import java.util.Spliterators;
+import java.util.stream.StreamSupport;
+/**
+ * Реализовать Stream на основе System.in.
+ * Операции в самом Stream’е можете описать на свой вкус.
+ * Главное, разберитесь, когда будет запускаться обработка элементов
+ * и в каком порядке она будет происходить.
+ */
 public class Main {
-    public static void main(String[] args) {
-        System.out.println(isPalindrome(121));
-        System.out.println(121 % 10);
-        System.out.println(121 / 10);
-        System.out.println(12 / 10);
-        System.out.println(1 / 10);
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
 
-    }
+//        0 - отсутствие заданных характеристик. В данном случае мы можем утверждать, что порядок гарантирован
+//        и элементы не могут быть null. Поэтому 0 можно заменить на Spliterator.ORDERED | Spliterator.NONNULL
+//        (см. логическое сложение)
+        Spliterator<String> scannerIterator = Spliterators.spliteratorUnknownSize(scanner, 0);
 
-    public static boolean isPalindrome(int x) {
-        int palindrome = x;
+        StreamSupport
+                .stream(scannerIterator, false)
+                .limit(5)   // возьмем первые пять значений, введенных с клавиатуры
+                .forEach(System.out::println);  //и выведем их в консоль
 
-        if (x < 0) {
-            return false;
-        }
+        scanner.close();
 
-        int reverse = 0;
-
-        while (palindrome != 0) {
-            int remainder = palindrome % 10;
-            reverse = reverse * 10 + remainder;
-            palindrome = palindrome / 10;
-        }
-
-        return x == reverse;
+//        Реализация с помощью BufferedReader
+//        try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
+//            reader.lines()
+//                    .limit(5)
+//                    .forEach(System.out::println);
+//        }
     }
 }
