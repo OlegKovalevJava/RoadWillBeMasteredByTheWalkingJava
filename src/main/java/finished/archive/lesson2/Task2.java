@@ -16,9 +16,22 @@ public class Task2 {
 
         System.out.print("Enter b: ");
         int b = scanner.nextInt();
+
         scanner.close();
 
-        System.out.println(a * a * a > b * b);
+        System.out.println(Math.pow(a, 3) > Math.pow(b, 2));
+        System.out.println(Math.pow(a, 3));
+        System.out.println(Math.pow(b, 2));
 
     }
+
+    public static int pow(int value, int powValue) {
+        int result = 1;
+        for (int i = 1; i <= powValue; i++) {
+            result = result * value;
+        }
+        return result;
+    }
+
+
 }

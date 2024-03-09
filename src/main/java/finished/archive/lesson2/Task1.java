@@ -1,7 +1,5 @@
 package finished.archive.lesson2;
 
-import java.util.Scanner;
-
 /**
  * Введите с клавиатуры вещественные числа a и b. Выведите на экран результат выражения
  *         c = b*a*(a + b)/(a2),         где a2 - a в квадрате
@@ -10,18 +8,9 @@ import java.util.Scanner;
  */
 public class Task1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a: ");
-        double a = scanner.nextDouble();
-
-        System.out.print("Enter b: ");
-        double b = scanner.nextDouble();
-        scanner.close();
-
-        double c = b * a * (a + b) / (a * a);
-
-        System.out.println(c);
+        TheEquation equation = new TheEquation();
+        equation.returnDouble();
 
     }
 }

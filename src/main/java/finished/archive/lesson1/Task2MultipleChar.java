@@ -18,7 +18,9 @@ public class Task2MultipleChar {
         System.out.print(ch3);
 
         char ch4 = 'р';
-        System.out.print(ch4);
+        System.out.println(ch4);
+        System.out.println("---->>>>");
+        System.out.println("" + ch1 + ch2 + ch3 + ch4);
     }
 
     /*

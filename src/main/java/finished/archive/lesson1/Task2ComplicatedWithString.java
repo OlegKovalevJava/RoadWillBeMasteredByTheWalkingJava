@@ -17,10 +17,10 @@ public class Task2ComplicatedWithString {
         System.out.print(s + "\n\n");
 
         String b = """
-                O
-                l
-                e
-                g""";
+                Ol
+                le
+                eg
+                g+1""";
 
         System.out.print(b);
     }
