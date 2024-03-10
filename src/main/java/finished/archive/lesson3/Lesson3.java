@@ -1,19 +1,20 @@
 package finished.archive.lesson3;
-
 // ПРИВЕДЕНИЕ ТИПОВ ДАННЫХ
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.function.Predicate;
 
 public class Lesson3 {
     public static void main(String[] args) {
+        Predicate<String> stringPredicate = "Test"::equals;
 
-        int a = 10;
-        int b = 3;
-        System.out.println((byte) a / b);
-        System.out.println((short) a / b);
-        System.out.println((int) a / b);
-        System.out.println((long) a / b);
-        System.out.println((float) a / b);
-        System.out.println((double) a / b);
-        System.out.println((char) a / b);
+        System.out.println(stringPredicate.test("Test"));
+        System.out.println(stringPredicate.test("test"));
+
+        List<Object> names = new LinkedList<>();
+        names.add("java");
+        names.add("kotlin");
 
     }
 }

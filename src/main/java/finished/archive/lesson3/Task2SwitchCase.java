@@ -12,27 +12,27 @@ import java.util.Scanner;
  */
 public class Task2SwitchCase {
     public static void main(String[] args) {
+        System.out.println(getMessage());
+    }
+
+    public static String getMessage() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter string: ");
-        String s = scanner.nextLine();
+        System.out.println("Enter string: ");
+        String message = scanner.nextLine();
+
         scanner.close();
 
-        switch (s) {
+        return switch (message) {
             case "Hi":
-                System.out.println("Hello");
-                break;
-
+                yield "Hello";
             case "Bye":
-                System.out.println("Good bye");
-                break;
-
+                yield "Good bye";
             case "How are you":
-                System.out.println("How are your doing");
-                break;
+                yield "How are your doing";
+            default:
+                yield "Unknown message";
+        };
 
-            default:  // Если значение s не совпадает ни с одним кейсом
-                System.out.println("Unknown message");
-        }
     }
 }

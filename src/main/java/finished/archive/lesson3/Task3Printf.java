@@ -10,6 +10,10 @@ import java.util.Scanner;
  */
 public class Task3Printf {
     public static void main(String[] args) {
+        System.out.println(getFIO());
+    }
+
+    public static String getFIO() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first name: ");
@@ -20,8 +24,12 @@ public class Task3Printf {
 
         System.out.print("Enter patronymic: ");
         String patronymic = scanner.nextLine();
+
         scanner.close();
 
-        System.out.printf("%s %s %s", lastName, firstName, patronymic);
+        return "Фамилия: " + lastName +
+               "\nИмя: " + firstName +
+               "\nОтчество: " + patronymic;
+
     }
 }

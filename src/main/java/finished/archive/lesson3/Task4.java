@@ -2,6 +2,8 @@ package finished.archive.lesson3;
 
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 /**
  * Ввести с клавиатуры два целых числа.
  * Если первое – четное ИЛИ второе – кратно трем,
@@ -19,27 +21,27 @@ import java.util.Scanner;
  */
 public class Task4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(in);
 
-        System.out.print("Enter a: ");
+        out.print("Enter a: ");
         int a = scanner.nextInt();
 
-        System.out.print("Enter b: ");
+        out.print("Enter b: ");
         int b = scanner.nextInt();
 
         scanner.close();
 
-        if (a % 2 == 0 || b % 3 == 0) {
-            System.out.println(a == b);
+        if (((a % 2) == 0) || ((b % 3) == 0)) {
+            out.println(a == b);
         }
 
-        if (a % 2 == 0 && a % 3 == 0) {
+        if (((a % 2) == 0) && ((a % 3) == 0)) {
             double result = Math.pow(a, b);
 
-            if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) {
-                System.out.println("Результат выражения слишком большой!");
+            if ((result > Integer.MAX_VALUE) || (result < Integer.MIN_VALUE)) {
+                out.println("Результат выражения слишком большой!");
             } else {
-                System.out.println((int) result);
+                out.println((int) result);
             }
         }
     }

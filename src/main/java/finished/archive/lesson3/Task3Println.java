@@ -10,6 +10,10 @@ import java.util.Scanner;
  */
 public class Task3Println {
     public static void main(String[] args) {
+        System.out.println(getNameLastNameCity());
+    }
+
+    public static String getNameLastNameCity() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first name: ");
@@ -18,11 +22,14 @@ public class Task3Println {
         System.out.print("Enter last name: ");
         String lastName = scanner.nextLine();
 
-        System.out.print("Enter patronymic: ");
-        String patronymic = scanner.nextLine();
+        System.out.print("Enter city: ");
+        String city = scanner.nextLine();
 
         scanner.close();
 
-        System.out.println(lastName + " " + firstName + " " + patronymic);
+        return "Фамилия: " + lastName +
+                "\nИмя: " + firstName +
+                "\nГород: " + city;
+
     }
 }

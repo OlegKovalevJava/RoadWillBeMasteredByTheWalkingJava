@@ -12,22 +12,30 @@ import java.util.Scanner;
  */
 public class Task2IfElse {
     public static void main(String[] args) {
+        System.out.println(getMessage());
+
+    }
+
+    public static String getMessage() {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter string: ");
-        String s = scanner.nextLine();
+        System.out.println("Enter string: ");
+        String message = scanner.nextLine();
 
         scanner.close();
 
-        if ("Hi".equals(s)) {   // Если значение s совпадает с "Hi" Выводим в консоль "Hello"
-            System.out.println("Hello");
-        } else if ("Bye".equals(s)) {   // Если значение s не равно "Hi", но равно "Bye"
-            System.out.println("Good bye");
-        } else if ("How are you".equals(s)) {
-            System.out.println("How are your doing");
-        } else {    // Во всех иных случаях
-            System.out.println("Unknown message");
+        if (message.equals("Hi")) {
+            return "Hello";
         }
-    }
 
+        if (message.equals("Bye")) {
+            return "Good bye";
+        }
+
+        if (message.equals("How are you")) {
+            return "How are your doing";
+        }
+
+        return "Unknown message";
+    }
 }
