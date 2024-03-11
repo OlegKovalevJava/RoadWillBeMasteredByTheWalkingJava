@@ -1,6 +1,7 @@
 package finished.archive.lesson4;
 
 import java.util.Scanner;
+import java.util.stream.IntStream;
 
 /**
  * Ввести с клавиатуры целое число.
@@ -17,17 +18,14 @@ public class Task1 {
 
         if (number < 0) { //Факториал отрицательного числа не существует
             System.out.println("The number must be at least 0");
-        } else if (number == 0) {
-//            0! == 1
-            System.out.println(1);
-        } else {
-            int result = 1;
-
-            for (int i = 1; i <= number; i++) {
-                result *= i;
-            }
-
-            System.out.println(result);
         }
+
+        if (number == 0) {
+            System.out.println(1);
+        }
+
+        int result = IntStream.rangeClosed(1, number).reduce(1, (a, b) -> a * b);
+
+        System.out.println(result);
     }
 }
