@@ -21,31 +21,18 @@ public class Task1 {
     }
 
     static void printAnswer(String greeting) {
-        String answer;
-
-        switch (greeting) {
-            case "Hi":
-                answer = "Hello";
-                break;
-
-            case "Bye":
-                answer = "Good bye";
-                break;
-
-            case "How are you":
-                answer = "How are your doing";
-                break;
-
-            default:
-                answer = "Unknown message";
-        }
+        String answer = switch (greeting) {
+            case "Hi" -> "Hello";
+            case "Bye" -> "Good bye";
+            case "How are you" -> "How are your doing";
+            default -> "Unknown message";
+        };
 
         log(answer);
+
     }
 
     static void log(String message) {
         System.out.println(message);
     }
-
-
 }

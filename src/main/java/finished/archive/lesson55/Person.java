@@ -1,4 +1,4 @@
-package finished.lesson55;
+package finished.archive.lesson55;
 
 public class Person {
 
